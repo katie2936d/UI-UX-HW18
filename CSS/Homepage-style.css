@@ -1,0 +1,55 @@
+.topNav{
+    display:flex;
+    justify-content: space-around;
+    padding-right: 40;
+    flex-direction:row;
+    height: 10%;
+    width: 100%;
+    background-color: white;
+    font-size: 32;
+    font-family: Verdana, sans-serif;
+    
+  }
+  .row{
+    display: flex;
+  }
+.footer{
+    display:flex;
+    justify-content: space-around;
+    padding-right: 40;
+    flex-direction:row;
+    height: 10%;
+    width: 100%;
+    background-color: white;
+    font-size: 32;
+    font-family: Verdana, sans-serif;
+  }
+
+  body{
+    font-size: 32;
+    text-align:center;
+    align-items:space-between;
+    font-family: Verdana, sans-serif;
+  }
+
+
+  @media screen and (max-width: 600x) {
+     
+       
+    .footer {
+      width: 80%;
+      margin:0 auto;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+    }
+    .topNav{
+      display: flex;
+      flex-direction:column;
+    }
+    .profile-pic{
+      font-size: 30px;
+    }
+  }
+    

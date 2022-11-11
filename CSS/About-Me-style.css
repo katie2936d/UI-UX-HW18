@@ -1,0 +1,53 @@
+.topNav{
+    display:flex;
+    justify-content: space-around;
+    padding-right: 40;
+    flex-direction:row;
+    height: 10%;
+    width: 100%;
+    background-color: white;
+    font-size: 32;
+    font-family: Verdana, sans-serif;
+    
+  }
+  .footer{
+    display:flex;
+    justify-content: space-around;
+    padding-right: 40;
+    flex-direction:row;
+    height: 10%;
+    width: 100%;
+    background-color: white;
+    font-size: 32;
+    font-family: Verdana, sans-serif;
+  }
+    
+  .about-section {
+   
+    padding: 50px;
+    text-align: center;
+    color: white;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+@media screen and (max-width: 600x) {
+     
+       
+    .footer {
+      width: 80%;
+      margin:0 auto;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+    }
+    .topNav{
+      display: flex;
+      flex-direction:column;
+    }
+    .profile-pic{
+      font-size: 30px;
+    }
+  }
